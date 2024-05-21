@@ -1,12 +1,12 @@
+const number1 = prompt("Enter a number 1: ");
 
-// Function to find the length of the
-// diagonal of a square of a given side
-function findDiagonal(s)
+const number2 = prompt("Enter a number 2: ");
+
+if(number1 > number2)
 {
-    return Math.sqrt(2) * s;
+    console.log(number1 +" is larger than "+ number2);
 }
- 
-// Driver Code
-var squareArea = 9;
- 
-console.log(findDiagonal(squareArea).toFixed(8));
+else
+{
+    console.log(number2 +" is larger than "+ number1);
+}

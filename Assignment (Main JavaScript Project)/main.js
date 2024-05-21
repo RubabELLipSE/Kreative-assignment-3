@@ -1,12 +1,15 @@
+// Random Number between 1 to 100 
+const generateRandomNumber = (min, max) => Math.random() * (max - min) + min;
 
-// Function to find the length of the
-// diagonal of a square of a given side
-function findDiagonal(s)
-{
-    return Math.sqrt(2) * s;
+// Enter input
+function getPlayerGuess () {
+
 }
- 
-// Driver Code
-var squareArea = 9;
- 
-console.log(findDiagonal(squareArea).toFixed(8));
+
+function checkGuess() {
+
+}
+
+function game() {
+    
+}
